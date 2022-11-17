@@ -82,6 +82,8 @@ h3 {
   border: none;
   font-size: 32px;
   transition: all 200ms ease-in-out;
+  position: relative;
+  top: 4px;
 }
 #search:hover {
   filter: contrast(170%);
@@ -97,4 +99,18 @@ footer {
   margin: 0px 320px;
   padding: 0px 10px;
   max-width: 45%;
+}
+
+.location {
+  border-radius: 4px;
+  border: none rgb(121, 200, 222);
+  background: rgb(79, 189, 220);
+  display: inline;
+  margin-left: 20px;
+  position: relative;
+  top: -2px;
+}
+
+.location:hover {
+  background: rgb(149, 212, 229);
 }
