@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
+
+
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+          crossorigin="anonymous"
+        />
+      </head>
+      <body>
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+          crossorigin="anonymous"
+        ></script>
+      </body>
+    </html>
+    <link rel="stylesheet" href="src/style.css">
+    <title>Weather application</title>
+  </head>
+  <body>
+    <div class="container ">
+      
+          
+      <form class="searching">
+        <input
+          type="text"
+          id="enter-city"
+          placeholder="Enter city"
+          autocomplete="off"
+          name="complete"
+        />
+        <input type="submit" value="🔍" id="search" autocomplete="off"/>
+
+      </form>
+      <button class="location">My location</button>
+      
+      <div class="row">
+        <div class="col-8">
+      <h1>
+        </h1><br /><h2>
+        </h2><h3><a href="" class= "measurment" id="c">°C </a>| <a href="" class="measurment" id="f">°F</a></h3>
+      
+      <p class="extra-info-p">
+      <div class="extra-info" id="description"></div>
+      <div class="date">
+    </div><div class="time">
+        
+      </div>
+      <div class="extra-info"></div>
+      <div class="extra-info" >
+        Precipitation: <br />
+        Humidity:<span class="humidity"></span>%<br />
+        Wind: <span class="wind"> </span>km/h
+      </div></p></div>
+      
+ 
+     
+      <div class="col-3 days">
+      <p>
+        <div class="days-individual">Fri <br/> 21° / 27° 🌤️</div>
+        <div class="days-individual">Sat <br/> 21° / 27° 🌤️</div>
+        <div class="days-individual">Sun <br/> 21° / 29° 🌤️</div>
+        <div class="days-individual">Mon <br/> 22° / 28° 🌞</div>
+        <div class="days-individual">Tue <br/> 21° / 28° 🌞</div>
+
+
+
+      </p>
+      </div>
+      </div>
+
+
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>

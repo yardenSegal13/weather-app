@@ -1,0 +1,88 @@
+form {
+  margin: 20px 10px;
+  box-sizing: border-box;
+}
+label {
+  font-size: 32px;
+}
+input {
+  max-width: 100%;
+}
+h1 {
+  margin: -10px 10px 20px 10px;
+  display: inline;
+  font-size: 40px;
+}
+h2 {
+  margin: -10px 10px 20px 10px;
+  display: inline;
+  font-size: 40px;
+}
+h3 {
+  margin: -10px 10px 20px 10px;
+  display: inline;
+  font-size: 32px;
+  text-decoration: none;
+  color: black;
+}
+
+.measurment {
+  text-decoration: none;
+  color: black;
+}
+
+.measurment:hover {
+  color: rgb(105, 172, 191);
+  transition: all 200ms ease-in-out;
+  text-decoration: underline;
+}
+
+.extra-info-p {
+  margin: 0 auto;
+}
+.extra-info {
+  padding: 15px 10px;
+  font-size: 22px;
+}
+.date {
+  padding: 15px 10px 0px 10px;
+  font-size: 22px;
+}
+.time {
+  padding: 0px 10px 15px 10px;
+  font-size: 22px;
+}
+body {
+  border: 10px solid rgb(121, 200, 222);
+  border-radius: 20px;
+  margin: 40px 320px;
+  padding: 10px 10px;
+  max-width: 45%;
+}
+.days {
+  position: relative;
+  top: -20px;
+}
+.days-individual {
+  font-size: 20px;
+  padding-top: 5px;
+  padding-left: 25px;
+}
+
+.col-8 {
+  border-right: 7px solid rgb(121, 200, 222);
+
+  height: 450px;
+  position: relative;
+  top: 15px;
+  right: 10px;
+}
+#search {
+  background: none;
+  border: none;
+  font-size: 32px;
+  transition: all 200ms ease-in-out;
+}
+#search:hover {
+  filter: contrast(170%);
+}
